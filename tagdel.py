@@ -52,9 +52,6 @@ class Controller:
         self.tokeep = self.tags[-keep:]
 	self.todelete = self.tags[:-min(len(self.tags), keep)]
 
-    def dump(self):
-        for t in self.tags: print t
-
     def info(self):
         print "Will delete %s oldest tags, and keep latest %s tags" % (len(self.todelete), len(self.tokeep))
 
