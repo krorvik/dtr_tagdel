@@ -4,7 +4,7 @@ Deletes tags from a docker trusted registry.
 usage: tagdel.py [-h] [-n] [-k KEEP] [-b BASEURL] -r REPO -u USER -t TOKEN
                  [-i IGNORE]
 
-Delete tags from a docker trusted registry using REST API.
+Delete, and keep latest -k/--keep tags from a docker trusted registry using REST API.
 
 optional arguments:
   -h, --help            show this help message and exit
