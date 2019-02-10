@@ -1,6 +1,6 @@
 #!/usr/bin/python
 from json import loads
-from time import strptime, strftime
+from time import strptime
 from sys import exit
 import requests
 from sys import argv
