@@ -1,5 +1,7 @@
 Deletes tags from a docker trusted registry.
 
+Requirements: Python, with python-requests. 
+
 ```
 usage: tagdel.py [-h] [-n] [-k KEEP] [-b BASEURL] -r REPO -u USER -t TOKEN
                  [-i IGNORE]
