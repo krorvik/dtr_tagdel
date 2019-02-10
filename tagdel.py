@@ -40,9 +40,6 @@ class TagData:
             print "Skipping tag %s from %s" % (self.name, args.repo)
             return False
 
-    def __str__(self):
-        return str("%s: %s, %s" % (self.name, self.digest, self.createdstr))
-
     def __cmp__(self, other):
 	return cmp(self.created, other.created)
 
