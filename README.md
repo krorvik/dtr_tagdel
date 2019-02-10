@@ -25,6 +25,8 @@ optional arguments:
 
 Example:
 
- ./tagdel.py  -k 10 -u <username> -t <token> -r origo/folkemusikk
+```
+./tagdel.py  -k 10 -u <username> -t <token> -r origo/folkemusikk
+```
 
 Will delete all but the latest 10 tags. 
